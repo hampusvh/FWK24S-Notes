@@ -1,2 +1,3 @@
-# Jensen-Notes
-Anteckningar från kursen [Paketering]
+#Paketering, leverans och uppföljning
+
+Anteckningar från kursen **Paketering, leverans och uppföljning**. 
