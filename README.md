@@ -1,3 +1,9 @@
-# Paketering, leverans och uppföljning
+## 🗎 Anteckningar [ FWK24S ] 
 
-Anteckningar från kursen **Paketering, leverans och uppföljning**. 
+Anteckningar från kurserna
+
+- Säker Kommunikation över Internet
+- Webbramverk för JavaScript
+- Agil Projektmetodik & Testning
+- Avancerad Webbramverk för JavaScript
+- Paketering, Leverans & Uppföljning
