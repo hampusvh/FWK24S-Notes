@@ -1,7 +1,7 @@
 <h1 align="center">🗎 Anteckningar [ FWK24S ]</h1>
 
 
-## ☉ Innehåll:
+## Innehåll:
 
 - Frontendutveckling Server
 - Säker Kommunikation över Internet
