@@ -1,6 +1,7 @@
-## 🗎 Anteckningar [ FWK24S ] 
+<h1 align="center">🗎 Anteckningar [ FWK24S ]</h1>
 
-Anteckningar från kurserna
+
+## Innehåll:
 
 - Säker Kommunikation över Internet
 - Webbramverk för JavaScript
