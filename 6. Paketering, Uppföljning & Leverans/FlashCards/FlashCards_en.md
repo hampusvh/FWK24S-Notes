@@ -1,22 +1,20 @@
-# Flash Cards
-
 **Dependency Management**  
 Dependency Management in a React application refers to the process of handling the libraries and packages that your project relies on, ensuring they are correctly installed, updated and configured. This is typically managed through the 'package.json' file, which lists all the dependencies required for the project. Tools like npm (Node Package Manager) or Yarn are used to automate the installation, updating and removal of these dependencies, making it easier to maintain a consistent development environment across different machines.
 
 **Bundling**  
 The process of combining multiple files, such as JavaScript, CSS and other assets, into a single or a few output files. This is done to reduce the number of HTTP requests needed to load a webpage, which can improve the loading speed and overall performance of web applications. Bundlers like Webpack, Rollup, and Parcel are commonly used in modern web development to manage dependencies and optimize the delivery of code. 
 
-**MD (Markdown)**
+**MD (Markdown)**  
 A lightweight markup language used for formatting text. It is designed to be easy to read and write, using plain text formatting syntax that can be converted to HTML, for web content, Markdown is widely used for writing documentation, README files, blog posts, and other content where simplicity and readability in plain text are important. 
 (Key Features: Simple Syntax, Easy to Convert, Widespread Use)
 
-**Monorepository (Monorepo)**
+**Monorepository (Monorepo)**  
 A version control strategy where multiple projects or components are stored and managed within a single, unified repository. This approach allows all related codebases to coexist, enabling shared code, consistent tooling, and centralized versioning. While a monorepo can simplify development for smaller projects by keeping everything in one place, it can become difficult to manage as the project scales, potentially leading to challenges with build times, dependency management, and coordination among teams. For this reason, monorepos may be more suited to smaller or simpler projects rather than large, complex systems. 
 
-**TTFHW (Time to First Hello World)**
+**TTFHW (Time to First Hello World)**  
 Refers to the amount of time it takes for a developer to set up a project or environment and reach the point where they can run a basic "Hello World!" program. This metric is often used to measure how quickly and easily a new developer can get started with a tool, framework, or project. A lower TTFHW indicates a more user-friendly setup process and a smoother onboarding experience. 
 
-**Repository (Repo)**
+**Repository (Repo)**  
 A central location where code and its history are stored and managed, typically using a version control system like Git. It acts as a storage space for all the files, directories, and related resources of a project, along with their version history, enabling collaboration, version tracking, and management of code changes over time. Repositories can be hosted locally on a developer's maching or remotely on platforms like GitHub, GitLab or Bitbucket.
 
 **Webpack**  
@@ -25,7 +23,7 @@ A popular module bundler for JavaScript applications. It takes modules with depe
 **Package Manager**  
 A tool that automates the process of installing, updating, configuring, and managing software packages or libraries. These packages are collections of code, often shared by other developers, that provide specific functionality or tools to aid in development. Package managers handle the complexities of dependency management, ensuring that the correct versions of packages and their dependencies are installed and compatible with each other. They are essential for modern software development, particularly in environments that rely heavily on external libraries or modules.
 
-**WebMVC (Model-View-Controller)**
+**WebMVC (Model-View-Controller)**  
 A design pattern used in web development to separate concerns within an application. It divides an application into three interconnected components: the Model (which represents the data or business logic), the View (which represents the Ul or presentation layer), and the Controller (which handles user input and updates the Model and View accordingly). This pattern is commonly used in web frameworks to organize code in a way that promotes modularity, scalability, and maintainability.
 
 **Rollup**  
@@ -37,10 +35,10 @@ A tool that automates repetitive development tasks such as minification, compila
 **Continuous Monitoring**  
 The practice of constantly tracking, analiyzing and reporting the performance, security and reliability of an application or system in real-time. This process helps to identify and resolve issues before they affect end users, ensuring the application runs smoothly. Continuous monitoring typically involves tracking metrics such as system health, uptime, response times, error rates, and security threats. 
 
-**Interpreter (in comparison with Transpiler and Compiler)**
+**Interpreter (in comparison with Transpiler and Compiler)**  
 A type of program that directly executes instructions written in a programming or scripting language without requiring them to be compiled into machine code first. Instead of translating the entire source code into a lower-level language (as a compiler does), an interpreter processes the source code line by line or statement by statement, translating and executing it on the fly. This can lead to slower execution times compared to compiled languages, but offers the advantage of immediate execution and ease of debugging. 
 
-**CI (Continuous Integration)**
+**CI (Continuous Integration)**  
 A software development practice where developers frequently integrate their code changes into a shared repository, typically several times a day. Each integration is automatically buit and tested to detect errors as early as possible. CI aims to improve the quality of the code, reduce integration problems, and allow teams to develop cohesive software rapidly.
 
 **Backlog**  
@@ -52,7 +50,7 @@ A powerful CI/CD platform that allows developers to automate tasks, such as buil
 **Version Control**  
 A system that records changes to files over time so that you can recall specific versions later. It allows multiple developers to collaborate on a project by tracking and managing changes to the codebase. Version control systems (VCS) enable developers to work simultaneously on different parts of a project, keep track of every modification, and revert back to previous versions if necessary. 
 
-**README.md**
+**README.md**  
 A markdown file typically found in the root directory of a software project. It serves as the main documentation for the project, providing essential information about the project, how to install and use it, and any other details that developers or users might need to understand and contribute to the project. The '.md' extension stands for markdown, a lightweight markup language that allows for easy formatting or text using plain text syntax.
 
 **Git Life Cycle**  
@@ -64,7 +62,7 @@ Refers to the server-side infrastructure of an application, handling business lo
 **Component**  
 In React, a Component is a reusable, self-contained piece of UI that encapsulates its own structure, logic, and style. Components can be either functional or class-based and are the building blocks of a React application. They receive data via props and manage their own state to render UI dynamically based on user interaction or data changes. In a broader software architecture context, a Component can also refer to a backend microservice or any modular part of a system that performs a specific function independently. In this case, components interact with each other via well-defined interfaces, often through APIs or message queues, contributing to the overall functionality of an application.
 
-**YAML (YAML Ain't Markup Language)**
+**YAML (YAML Ain't Markup Language)**  
 A human-readable data serialization format commonly used for configuration files and data exchange between languages with different data structures. The`.yml`or`.yaml` file extension is used for files written in YAML. It is known for its simplicity and ease of use, allowing developers to define data in a clear and structured manner without the complexity of other formats like XML or JSON.
 
 **Obfuscation**  
@@ -79,10 +77,10 @@ An optimization technique used in modern JavaScript bundlers to remove dead or u
 **Component Testing**  
 Involves testing individual components of a software application in isolation to ensure they function correctly. This type of testing treats the component as a "black box," focusing on the inputs and expected outputs without considering the internal workings. It's commonly used in the context of Ul components in frameworks like React, where you test how a specific component behaves under various conditions.
 
-**Multi-Tier Architecture (also known as n-Tier Architecture)**
+**Multi-Tier Architecture (also known as n-Tier Architecture)**  
 A software architecture pattern that separates an application into multiple, distinct layers or tiers, each responsible for specific aspects of the application's functionality. This separation of concerns helps to organize code, improve scalability, and manage complexity by allowing each tier to evolve independently. The most common form is a three-tier architecture, but applications can have more or fewer tiers depending on the design requirements.
 
-**Double Mock (Testing Double)**
+**Double Mock (Testing Double)**  
 A type of testing double used in software testing that not only simulates the behavior of real objects but also records the interactions with it, such as method calls and arguments passed. Mocks are particularly useful when you need to verify that certain methods were called during the execution of a test and to check the specific interactions between components. Mocks can be pre-programmed with expectations that define what methods should be called and with what parameters, making them more sophisticated than other testing doubles like stubs or dummies.
 
 **Vite**  
@@ -94,7 +92,7 @@ A type of compiler that translates source code from one programming language or 
 **Packaging**  
 In software development, packaging refers to the process of bundling or assembling code, resources, and dependencies into a distributable format. This format could be a package, library, executable, or container that can be easily shared, deployed, or installed in different environments. Packaging ensures that the software can be reliably distributed and used across various systems with all necessary components included.
 
-**Staging Environment (Stage)**
+**Staging Environment (Stage)**  
 A pre-production environment that serves as a final testing ground before deploying an application to the production environment. The staging environment is intended to closely mirror the production environment, allowing developers and testers to validate that the application works as expected under conditions that are as close to real-world usage as possible. This environment is used to catch any remaining issues that might not have been identified during earlier testing phases.
 
 **Build System**  
@@ -106,7 +104,7 @@ A JavaScript transpiler that enables developers to write modern JavaScript (incl
 **Linting**  
 Is the process of analyzing source code to detect and fix potential errors, bugs, stylistic issues, and violations of coding standards. A linter is a tool that performs this analysis. By catching issues early in the development process, linting helps maintain code quality, consistency, and readability across a project. Linting can be especially useful for identifying problematic patterns or code that may cause bugs in the future.
 
-**Continuous Delivery (CD)**
+**Continuous Delivery (CD)**  
 A software development practice where code changes are automatically prepared for release to production. After passing all automated tests in the Continuous Integration (CI) pipeline, the code is deployed to staging or production environments in a way that ensures it is always in a releasable state. CD aims to make deployment predictable and reliable, allowing for frequent and safe releases.
 
 **Compiler**  
@@ -115,22 +113,22 @@ A program that translates code written in a high-level programming language (suc
 **Edge Computing**  
 A distributed computing paradigm that brings computation and data storage closer to the location where it is needed, typically at the "edge" of the network, near the devices generating the data. This approach reduces latency, conserves bandwidth, and improves the performance of applications, particularly those requiring real-time processing, by processing data locally rather than relying on a centralized cloud infrastructure.
 
-**RESTful (Representational State Transfer)**
+**RESTful (Representational State Transfer)**  
 A style of web service architecture that follows the principles of REST (Representational State Transfer). RESTful services are designed to be stateless, scalable, and easily maintainable, allowing different systems to communicate over the web using standard HTTP methods like GET, POST, PUT, DELETE, etc. RESTful APIs are commonly used to expose data and functionality of web applications to other systems, such as front-end clients or other backend services.
 
-**DRY (Don't Repeat Yourself)**
+**DRY (Don't Repeat Yourself)**  
 A principle of software development aimed at reducing repetition of code, logic, or data within a system. The DRY principle encourages developers to avoid duplicating code by abstracting repeated logic or data into reusable components, functions, or modules. This approach promotes cleaner, more maintainable code, and reduces the risk of errors by ensuring that any change only needs to be made in one place.
 
-**API (Application Programming Interface)**
+**API (Application Programming Interface)**  
 A set of rules that allows different software applications to communicate with each other.
 
 **Frontend System**  
 Refers to the collection of tools, libraries, frameworks, and technologies used to build the user-facing part of a web application or website. This system is responsible for everything users interact with directly in their web browsers, including the user interface, navigation, content rendering, and dynamic behavior. A robust frontend system ensures a responsive, interactive, and seamless user experience across different devices and platforms.
 
-**Self-Organizing Team**
+**Self-Organizing Team**  
 A group of individuals who manage their work and responsibilities autonomously without the need for centralized control or micromanagement. In a self-organizing team, members collectively decide how tasks are distributed, how goals are met, and how problems are solved, leveraging their skills and expertise to achieve the best outcomes. This concept is central to agile methodologies like Scrum and is designed to foster collaboration, accountability, and adaptability.
 
-**Test-Driven Deployment (TDD)**
+**Test-Driven Deployment (TDD)**  
 A software development process in which developers write tests for a new feature or functionality before writing the actual code to implement it. The TDD cycle typically involves writing a failing test, writing the minimum code necessary to pass the test, and then refactoring the code while ensuring that all tests continue to pass. TDD promotes the creation of cleaner, more reliable code by ensuring that every piece of functionality is backed by a corresponding test.
 
 **Serverless Computing**  
@@ -151,7 +149,7 @@ A modern, end-to-end testing framework designed specifically for web application
 **Integration Testing**  
 A level of software testing where individual units or components are combined and tested as a group. The primary goal of integration testing is to identify issues that occur when different components interact with each other, such as mismatches in data formats, incorrect interfaces, or unexpected behavior when units are integrated. This type of testing ensures that the components of a system work together as expected and that their interactions produce the correct results.
 
-**Double Stub (Testing Double)**
+**Double Stub (Testing Double)**  
 A type of testing double used in software testing that replaces a real object or method with a simplified version that provides predefined responses. Unlike mocks or spies, stubs do not record interactions or track how they are used; they simply return hard-coded values or responses when called. Stubs are particularly useful when you need to isolate the component under test by removing dependencies on external systems or complex objects, ensuring that the test focuses solely on the logic being tested.
 
 **Jest**  
@@ -178,22 +176,22 @@ A module system for JavaScript, primarily used in server-side development with N
 **Double Dummy (Testing Double)**  
 In software testing, a Dummy is a type of testing double used as a placeholder object that is passed around but never actually used in the test. Dummies are typically utilized when a method or function requires an argument, but the specific value of that argument is irrelevant to the test being conducted. The primary purpose of a dummy is to fulfill the requirements of the function signature without influencing the outcome of the test.
 
-**End User Testing (also known as User Acceptance Testing or UAT)**
+**End User Testing (also known as User Acceptance Testing or UAT)**  
 The final phase of the software testing process where the actual users of the software test the system in a real-world environment to ensure that it meets their needs and requirements. This type of testing focuses on validating that the software performs as expected from the user's perspective, addressing both functionality and usability before the product is released to production.
 
 **React Testing Library**  
 A lightweight testing utility that provides tools for testing React components. Unlike traditional testing frameworks, React Testing Library focuses on testing components from the perspective of the user, ensuring that your tests are more reliable and maintainable by simulating user interactions and verifying the behavior of the component as it would be in a real environment. It is often used in conjunction with testing frameworks like Jest.
 
-**Double Fake (Testing Double)**
+**Double Fake (Testing Double)**  
 A type of testing double used in software testing that provides a working, but simplified, implementation of a component or service. Unlike dummies or stubs, which do not carry out any real logic, a fake mimics the behavior of a real object but with less complexity, making it suitable for testing purposes. Fakes are often used when the real object is too resource-intensive complex to use in a test environment, such as a database or an external API.
 
-**Double Spy (Testing Double)**
+**Double Spy (Testing Double)**  
 A Spy is a type of testing double used in software testing that wraps around a real object or function and records information about how it is used during the test, such as method calls and the arguments passed. Unlike mocks or stubs, a spy does not replace the original functionality; instead, it monitors and tracks interactions without altering the behavior of the underlying code. Spies are particularly useful for verifying that certain methods were called, how many times they were called, and with what parameters, while still allowing the original logic to be executed.
 
-**Client-Side Scripting**
+**Client-Side Scripting**  
 Refers to the execution of scripts, typically written in languages like JavaScript, within the user's web browser rather than on the server. This allows web pages to be dynamic, interactive, and responsive to user input without requiring a page reload. Common tasks for client-side scripts include form validation, DOM manipulation, and making asynchronous requests to a server (AJAX).
 
-**Hot Module Replacement (HMR)**
+**Hot Module Replacement (HMR)**  
 A feature in modern web development tools that allows modules of an application to be updated in the browser without requiring a full page reload. This feature is particularly useful during development, as it enables faster iteration by instantly applying changes to the application's code while preserving the current state.
 
 **Require**  
@@ -205,18 +203,19 @@ Node.js is an open-source, cross-platform JavaScript runtime environment that al
 **Express**  
 Express.js is a minimal and flexible web application framework for Node.js. It provides a robust set of features for building web and mobile applications, including tools for routing, middleware management, and handling HTTP requests and responses. Express.js simplifies the process of creating serverside applications, allowing developers to focus on writing the business logic rather than dealing with the underlying infrastructure.
 
-**Server-Side Scripting**
+**Server-Side Scripting**  
 The process of writing code that runs on a server rather than on the client (browser). This scripting is responsible for generating dynamic web content, interacting with databases, handling user requests, and managing application logic before sending the final output to the client's browser. Common server-side scripting languages include PHP, Node.js (JavaScript), Python, Ruby, and Java.
 
-**Import (ES6 Modules)**A statement in JavaScript used to bring in modules and their exports from other files into the current file. It is part of the ES6 module system, which is designed to allow for modular programming and code reuse. Unlike` require, `import` is statically analyzed, meaning it is hoisted and processed before the rest of the code runs. `import` supports both named imports and default imports, and while it is usually static, dynamic imports are also possible using `import()`.
+**Import (ES6 Modules)**  
+A statement in JavaScript used to bring in modules and their exports from other files into the current file. It is part of the ES6 module system, which is designed to allow for modular programming and code reuse. Unlike` require, `import` is statically analyzed, meaning it is hoisted and processed before the rest of the code runs. `import` supports both named imports and default imports, and while it is usually static, dynamic imports are also possible using `import()`.
 
-**ECMAScript 6 (ES6)**
+**ECMAScript 6 (ES6)**  
 ES6, also known as ECMAScript 2015, is the sixth edition of the ECMAScript language specification, and it brought significant updates to JavaScript. ES6 introduced new features and syntax that improved the language's power, readability, and ease of use, especially for building complex applications. Browser Support: Modern browsers have largely adopted ES6 features, but older browsers may require transpilation (e.g., using Babel) to convert ES6 code into ES5, ensuring compatibility.
 
 **Prod Environment**  
 The Production Environment (Prod) is the live environment where the final version of a software application is deployed and made available to end users. is the most critical environment in the software development lifecycle, as it serves real users and handles actual data. The production environment is optimized for performance, reliability, and security, ensuring that the application runs smoothly under real-world conditions.
 
-**Dev environment (Development Environment)**
+**Dev environment (Development Environment)**  
 Where software developers write, test, and debug their code. This environment is typically isolated from production and other environments, allowing developers to make changes freely without affecting end users. The dev environment is set up to mimic the conditions under which the code will eventually run, but it is often less restrictive and may include debugging tools, detailed logs, and hot-reloading capabilities that make development faster and more efficient.
 
 **Deployment Pipeline**  
@@ -231,9 +230,9 @@ A Merge Conflict occurs when Git is unable to automatically resolve differences 
 **Environment**  
 In software development, an Environment refers to a distinct setup of hardware, software, and configuration settings where specific stages of the software lifecycle, such as development, testing, or production, are carried out. Different environments are used to isolate and manage changes in the application at various stages, ensuring that the software behaves correctly before it is released to end users.
 
-**CommonJS**
+**CommonJS**  
 A module system for JavaScript, primarily used in server-side development with Node.js. It allows developers to structure their code into reusable modules, making it easier to manage dependencies and maintain large codebases. Modules in CommonJS are loaded synchronously using the require` function, and they export their functionality using`module.exports`.
 
-**Separation of Concerns (SoC)**
+**Separation of Concerns (SoC)**  
 A design principle in software engineering that advocates dividing a program into distinct sections, each responsible for a specific aspect of the software's functionality. By separating concerns, developers can manage complexity more effectively, improve modularity, and enhance maintainability. Each section, or "concern", should encapsulate a specific functionality, such as the user interface, business logic, or data access, and interact with other sections through well-defined interfaces. 
 
