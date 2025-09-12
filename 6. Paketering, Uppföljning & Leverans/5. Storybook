@@ -18,6 +18,8 @@ npm run storybook
 
 Detta skapar en .storybook/-mapp och lägger till scripts i package.json.
 
+---
+
 2. Skapa en enkel komponent  
 
 src/components/Button.jsx
@@ -28,12 +30,13 @@ export default function Button({ label = "Click me" }) {
 }
 ```
 
+---
+
 3. Lägg till en Story  
 
 src/components/Button.stories.jsx
 
-jsx
-Kopiera kod
+```
 import Button from "./Button";
 
 export default {
@@ -47,7 +50,11 @@ export const Primary = {};
 export const CustomLabel = {
   args: { label: "Hello Storybook" },
 };
+```
+---
+
 4. Kör Storybook
-bash
-Kopiera kod
+
+```
 npm run storybook
+```
