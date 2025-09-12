@@ -1,0 +1,53 @@
+# Storybook
+
+## Vad är Storybook?
+- Ett verktyg för att **utveckla och dokumentera isolerade komponenter**.  
+- Du kan testa komponenter utan att behöva köra eller ändra hela appen.  
+- Användbart för både utveckling, dokumentation och testning.  
+
+---
+
+## Användning
+
+1. Installera  
+
+```
+npx storybook@latest init
+npm run storybook
+````
+
+Detta skapar en .storybook/-mapp och lägger till scripts i package.json.
+
+2. Skapa en enkel komponent  
+
+src/components/Button.jsx
+
+```
+export default function Button({ label = "Click me" }) {
+  return <button>{label}</button>;
+}
+```
+
+3. Lägg till en Story  
+
+src/components/Button.stories.jsx
+
+jsx
+Kopiera kod
+import Button from "./Button";
+
+export default {
+  title: "Components/Button",
+  component: Button,
+  tags: ["autodocs"],
+  args: { label: "Click me" },
+};
+
+export const Primary = {};
+export const CustomLabel = {
+  args: { label: "Hello Storybook" },
+};
+4. Kör Storybook
+bash
+Kopiera kod
+npm run storybook
